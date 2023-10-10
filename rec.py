@@ -11,6 +11,13 @@ model = models[0].name
 exposure_percent=40
 weight=50
 height=1.70
+history_of_stroke=yes 
+family_history_of_stroke=yes
+physical_activity_level=sedentary
+diet=balaced 
+systolic_blood_pressure=50
+diastolic_blood_pressure=60
+
 
 medical_prompt = """
 Provide personalized advice for stroke prevention based on the user's profile:
@@ -20,6 +27,13 @@ User Profile:
 Weight:{weight} kg
 Height: {height}meters
 Risk of a Stroke:{exposure_percent}%
+history of stroke={yes}
+family history of stroke={family_history_of_stroke}
+physical activity level={physical_activity_level}
+diet={diet}
+systolic blood pressure={systolic_blood_pressure}
+diastolic blood pressure={diastolic_blood_pressure}
+
 Please offer recommendations on what the user can 
 do to reduce their risk of a stroke, taking into 
 account their weight, height, and the elevated risk
