@@ -11,10 +11,10 @@ model = models[0].name
 exposure_percent=40
 weight=50
 height=1.70
-history_of_stroke=yes 
-family_history_of_stroke=yes
-physical_activity_level=sedentary
-diet=balaced 
+history_of_stroke="yes "
+family_history_of_stroke="yes"
+physical_activity_level="sedentary"
+diet="balaced "
 systolic_blood_pressure=50
 diastolic_blood_pressure=60
 
@@ -27,7 +27,7 @@ User Profile:
 Weight:{weight} kg
 Height: {height}meters
 Risk of a Stroke:{exposure_percent}%
-history of stroke={yes}
+history of stroke={history_of_stroke}
 family history of stroke={family_history_of_stroke}
 physical activity level={physical_activity_level}
 diet={diet}
@@ -46,14 +46,10 @@ medical_response = palm.generate_text(
     prompt=medical_prompt,
     max_output_tokens=800,
 ).result
-
-while True:
-    # user_input = input("Ask a question: ")
-    # if 'medicine' in user_input.lower() or 'health' in user_input.lower() or 'stroke ' in user_input.lower() or 'hey' in user_input.lower() or 'hello' in user_input.lower() or 'hi' in user_input.lower() :
-    response = palm.generate_text( 
+response = palm.generate_text( 
             model=model,
             prompt=medical_prompt,
             max_output_tokens=800,
         ).result
-    print(response)
+print(response)
     
