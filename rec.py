@@ -36,7 +36,8 @@ Diet: {diet}
 Systolic Blood Pressure: {systolic_blood_pressure} mmHg
 Diastolic Blood Pressure: {diastolic_blood_pressure} mmHg
 It's essential to emphasize that the risk of stroke provided is based on meticulous data analysis and should be taken seriously.
-
+Taking into account the user's profile, it's commendable to acknowledge the positive aspects but also address areas that require improvement.
+Please provide a comprehensive set of recommendations, highlighting the favorable aspects of the user's profile while pinpointing areas that necessitate change.
 Please offer comprehensive recommendations tailored to the user's profile. Include specific guidance on lifestyle changes,
 dietary adjustments, and exercise routines that will not only promote better overall health but also reduce the risk of stroke effectively."
 """
