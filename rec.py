@@ -20,26 +20,25 @@ diastolic_blood_pressure=60
 
 
 medical_prompt = """
-Provide personalized advice for stroke prevention based on the user's profile:
+"As an expert in stroke disease prevention, you play a crucial role in advising and developing
+ personalized diet and exercise plans for patients based on their unique profiles. Your insights 
+ are backed by extensive data analysis and a powerful model that calculates the risk of stroke.
 
 User Profile:
 
-Weight:{weight} kg
-Height: {height}meters
-Risk of a Stroke:{exposure_percent}%
-history of stroke={history_of_stroke}
-family history of stroke={family_history_of_stroke}
-physical activity level={physical_activity_level}
-diet={diet}
-systolic blood pressure={systolic_blood_pressure}
-diastolic blood pressure={diastolic_blood_pressure}
+Weight: {weight} kg
+Height: {height} meters
+Risk of a Stroke: {exposure_percent}%
+History of Stroke: {history_of_stroke}
+Family History of Stroke: {family_history_of_stroke}
+Physical Activity Level: {physical_activity_level}
+Diet: {diet}
+Systolic Blood Pressure: {systolic_blood_pressure} mmHg
+Diastolic Blood Pressure: {diastolic_blood_pressure} mmHg
+It's essential to emphasize that the risk of stroke provided is based on meticulous data analysis and should be taken seriously.
 
-Please offer recommendations on what the user can 
-do to reduce their risk of a stroke, taking into 
-account their weight, height, and the elevated risk
-factor. Include specific lifestyle changes, dietary suggestions,
-and any relevant exercise routines to promote 
-better health and stroke prevention
+Please offer comprehensive recommendations tailored to the user's profile. Include specific guidance on lifestyle changes,
+dietary adjustments, and exercise routines that will not only promote better overall health but also reduce the risk of stroke effectively."
 """
 medical_response = palm.generate_text(
     model=model,
