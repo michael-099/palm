@@ -1,13 +1,10 @@
 import google.generativeai as palm
 
-# Configure with your API key
 palm.configure(api_key='AIzaSyD4iOipAbxMSKI3ESrqCpNx7L68sg9_SK0')
 
-# Retrieve and select a generative AI model that supports 'generateText'
 models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
 model = models[0].name
 
-# Define a prompt for medical-related questions
 exposure_percent=40
 weight=150
 height=1.70
@@ -42,11 +39,7 @@ Please offer comprehensive recommendations tailored to the user's profile.
 
 Include specific guidance on lifestyle changes,dietary adjustments, and exercise routines that will not only promote better overall health but also reduce the risk of stroke effectively."
 """
-medical_response = palm.generate_text(
-    model=model,
-    prompt=medical_prompt,
-    max_output_tokens=800,
-).result
+
 response = palm.generate_text( 
             model=model,
             prompt=medical_prompt,
