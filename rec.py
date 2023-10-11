@@ -40,5 +40,4 @@ response = palm.generate_text(
             prompt=medical_prompt,
             max_output_tokens=800,
         ).result
-print(response)
-    
+print(response)   

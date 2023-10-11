@@ -1,6 +1,6 @@
 import string
 
-# Define the input and output file paths
+
 input_file_path = 'C:/Users/micha/OneDrive/Documents/2016 cods/PALm/Abstract.txt'
 output_file_path = 'C:/Users/micha/OneDrive/Documents/2016 cods/PALm/Abstract.txt'
 
