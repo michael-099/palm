@@ -17,8 +17,8 @@ diastolic_blood_pressure=60
 
 medical_prompt = f"""
 As an expert in stroke disease prevention, you play a crucial role in advising and developing
- personalized diet and exercise plans for patients based on their unique profiles. Your insights 
- are backed by extensive data analysis and a powerful model that calculates the risk of stroke.
+personalized diet and exercise plans for patients based on their unique profiles. Your insights 
+are backed by extensive data analysis and a powerful model that calculates the risk of stroke.
 User Profile:
 Weight: {weight} kg
 Height: {height} meters
@@ -35,7 +35,6 @@ Please provide a comprehensive set of recommendations, highlighting the favorabl
 Please offer comprehensive recommendations tailored to the user's profile. 
 Include specific guidance on lifestyle changes,dietary adjustments, and exercise routines that will not only promote better overall health but also reduce the risk of stroke effectively.
 """
-
 response = palm.generate_text( 
             model=model,
             prompt=medical_prompt,
