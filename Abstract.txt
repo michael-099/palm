@@ -1,4 +1,4 @@
-Abstract
+
 Background According to the World Health Organization stroke is the ‘incoming epidemic of the 21st century In light of recent data suggesting that 85 of all strokes may be preventable strategies for prevention are moving to the forefront in stroke management Summary This review discusses the risk factors and provides evidence on the effective medical interventions and lifestyle modifications for optimal stroke prevention Key Messages Stroke risk can be substantially reduced using the medical measures that have been proven in many randomized trials in combination with effective lifestyle modifications The global modification of health and lifestyle is more beneficial than the treatment of individual risk factors Clinical Implications Hypertension is the most important modifiable risk factor for stroke Efficacious reduction of blood pressure is essential for stroke prevention even more so than the choice of antihypertensive drugs Indications for the use of antihypertensive drugs depend on blood pressure values and vascular risk profile thus treatment should be initiated earlier in patients with diabetes mellitus or in those with a high vascular risk profile Treatment of dyslipidemia with statins anticoagulation therapy in atrial fibrillation and carotid endarterectomy in symptomatic highgrade carotid stenosis are also effective for stroke prevention Lifestyle factors that have been proven to reduce stroke risk include reducing salt eliminating smoking performing regular physical activity and maintaining a normal body weight
 
 KeywordsCerebrovascular disease Hypertension Ischemic stroke Risk factors for stroke Stroke Prevention
@@ -570,7 +570,6 @@ Cardiovascular disease including heart failure heart defects heart infection or 
 Personal or family history of stroke heart attack or transient ischemic attack
 COVID19 infection
 Other factors associated with a higher risk of stroke include
-
 Age — People age 55 or older have a higher risk of stroke than do younger people
 Race or ethnicity — African Americans and Hispanics have a higher risk of stroke than do people of other races or ethnicities
 Sex — Men have a higher risk of stroke than do women Women are usually older when they have strokes and theyre more likely to die of strokes than are men
